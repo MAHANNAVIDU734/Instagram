@@ -20,6 +20,14 @@
 		472DED6F25E13BFB00D1DC68 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED6E25E13BFB00D1DC68 /* CameraViewController.swift */; };
 		472DED7425E13C2000D1DC68 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED7325E13C2000D1DC68 /* NotificationViewController.swift */; };
 		472DED7925E13C3700D1DC68 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED7825E13C3700D1DC68 /* ProfileViewController.swift */; };
+		472DED8125E13D0E00D1DC68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED8025E13D0E00D1DC68 /* LoginViewController.swift */; };
+		472DED8925E13D2900D1DC68 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED8825E13D2900D1DC68 /* RegistrationViewController.swift */; };
+		472DED8E25E13D5600D1DC68 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED8D25E13D5600D1DC68 /* PostViewController.swift */; };
+		472DED9325E13D8900D1DC68 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED9225E13D8900D1DC68 /* EditProfileViewController.swift */; };
+		472DED9825E13DA000D1DC68 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED9725E13DA000D1DC68 /* SettingsViewController.swift */; };
+		472DED9D25E13DC000D1DC68 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DED9C25E13DC000D1DC68 /* ListViewController.swift */; };
+		472DEDA225E13DE100D1DC68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DEDA125E13DE100D1DC68 /* SearchViewController.swift */; };
+		472DEDA725E13DFE00D1DC68 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472DEDA625E13DFE00D1DC68 /* SearchResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,14 @@
 		472DED6E25E13BFB00D1DC68 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		472DED7325E13C2000D1DC68 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		472DED7825E13C3700D1DC68 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		472DED8025E13D0E00D1DC68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		472DED8825E13D2900D1DC68 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		472DED8D25E13D5600D1DC68 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		472DED9225E13D8900D1DC68 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		472DED9725E13DA000D1DC68 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		472DED9C25E13DC000D1DC68 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		472DEDA125E13DE100D1DC68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		472DEDA625E13DFE00D1DC68 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +165,8 @@
 		472DED5725E1377000D1DC68 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				472DED2125E1362B00D1DC68 /* HomeViewController.swift */,
-				472DED5E25E13BB600D1DC68 /* ExploreViewController.swift */,
-				472DED6E25E13BFB00D1DC68 /* CameraViewController.swift */,
-				472DED7325E13C2000D1DC68 /* NotificationViewController.swift */,
-				472DED7825E13C3700D1DC68 /* ProfileViewController.swift */,
+				472DED7E25E13CDB00D1DC68 /* Other */,
+				472DED7D25E13C8F00D1DC68 /* Core Tabs */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +194,41 @@
 				472DED2B25E1363200D1DC68 /* LaunchScreen.storyboard */,
 			);
 			path = Sotryboards;
+			sourceTree = "<group>";
+		};
+		472DED7D25E13C8F00D1DC68 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				472DED2125E1362B00D1DC68 /* HomeViewController.swift */,
+				472DED5E25E13BB600D1DC68 /* ExploreViewController.swift */,
+				472DED6E25E13BFB00D1DC68 /* CameraViewController.swift */,
+				472DED7325E13C2000D1DC68 /* NotificationViewController.swift */,
+				472DED7825E13C3700D1DC68 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		472DED7E25E13CDB00D1DC68 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				472DED7F25E13CEC00D1DC68 /* Onboarding */,
+				472DED8D25E13D5600D1DC68 /* PostViewController.swift */,
+				472DED9225E13D8900D1DC68 /* EditProfileViewController.swift */,
+				472DED9725E13DA000D1DC68 /* SettingsViewController.swift */,
+				472DED9C25E13DC000D1DC68 /* ListViewController.swift */,
+				472DEDA125E13DE100D1DC68 /* SearchViewController.swift */,
+				472DEDA625E13DFE00D1DC68 /* SearchResultViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		472DED7F25E13CEC00D1DC68 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				472DED8025E13D0E00D1DC68 /* LoginViewController.swift */,
+				472DED8825E13D2900D1DC68 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,14 +361,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472DEDA225E13DE100D1DC68 /* SearchViewController.swift in Sources */,
+				472DED8125E13D0E00D1DC68 /* LoginViewController.swift in Sources */,
 				472DED2825E1362C00D1DC68 /* Instagram.xcdatamodeld in Sources */,
 				472DED2225E1362B00D1DC68 /* HomeViewController.swift in Sources */,
 				472DED5F25E13BB600D1DC68 /* ExploreViewController.swift in Sources */,
+				472DED8925E13D2900D1DC68 /* RegistrationViewController.swift in Sources */,
 				472DED7425E13C2000D1DC68 /* NotificationViewController.swift in Sources */,
+				472DED9D25E13DC000D1DC68 /* ListViewController.swift in Sources */,
 				472DED1E25E1362B00D1DC68 /* AppDelegate.swift in Sources */,
 				472DED2025E1362B00D1DC68 /* SceneDelegate.swift in Sources */,
+				472DED9325E13D8900D1DC68 /* EditProfileViewController.swift in Sources */,
 				472DED7925E13C3700D1DC68 /* ProfileViewController.swift in Sources */,
+				472DED9825E13DA000D1DC68 /* SettingsViewController.swift in Sources */,
 				472DED6F25E13BFB00D1DC68 /* CameraViewController.swift in Sources */,
+				472DEDA725E13DFE00D1DC68 /* SearchResultViewController.swift in Sources */,
+				472DED8E25E13D5600D1DC68 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
