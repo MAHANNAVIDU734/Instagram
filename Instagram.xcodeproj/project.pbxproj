@@ -101,12 +101,10 @@
 		472DED1C25E1362B00D1DC68 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				472DED1D25E1362B00D1DC68 /* AppDelegate.swift */,
-				472DED1F25E1362B00D1DC68 /* SceneDelegate.swift */,
-				472DED2125E1362B00D1DC68 /* ViewController.swift */,
-				472DED2325E1362C00D1DC68 /* Main.storyboard */,
-				472DED2925E1363200D1DC68 /* Assets.xcassets */,
-				472DED2B25E1363200D1DC68 /* LaunchScreen.storyboard */,
+				472DED5925E1379200D1DC68 /* Resources */,
+				472DED5825E1378100D1DC68 /* Models */,
+				472DED5725E1377000D1DC68 /* Controllers */,
+				472DED5625E1376600D1DC68 /* Views */,
 				472DED2E25E1363200D1DC68 /* Info.plist */,
 				472DED2625E1362C00D1DC68 /* Instagram.xcdatamodeld */,
 			);
@@ -129,6 +127,40 @@
 				472DED4425E1363300D1DC68 /* Info.plist */,
 			);
 			path = InstagramUITests;
+			sourceTree = "<group>";
+		};
+		472DED5625E1376600D1DC68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				472DED2325E1362C00D1DC68 /* Main.storyboard */,
+				472DED2925E1363200D1DC68 /* Assets.xcassets */,
+				472DED2B25E1363200D1DC68 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		472DED5725E1377000D1DC68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				472DED2125E1362B00D1DC68 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		472DED5825E1378100D1DC68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		472DED5925E1379200D1DC68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				472DED1D25E1362B00D1DC68 /* AppDelegate.swift */,
+				472DED1F25E1362B00D1DC68 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = progma.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = progma.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
